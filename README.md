@@ -1,2 +1,2 @@
 # Words Matter as LOD
-Developing a linked open data version of Words Matter
+Developing a controlled thesaurus of contentious terms used in cultural heritage collections

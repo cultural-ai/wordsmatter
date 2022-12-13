@@ -12,15 +12,23 @@ culco:ContentiousIssue a rdfs:Class ;
 culco:Suggestion a rdfs:Class .
 
 culco:hasSuggestion
+:domain ContentiousIssue
+:range Suggestion
 	a rdf:Property .
 
 culco:hasContentiousLabel
+:domain 
+:range skosxl:Label
 	a rdf:Property .
 
 culco:hasSuggestedLabel
+:domain Suggestiob
+:range skosxl:Label
 	a rdf:Property .
 
 culco:suggestedFor
+:domain Suggestion
+:range skosxl:Label
 	a rdf:property .
 
 culco:hasAltLabelExample

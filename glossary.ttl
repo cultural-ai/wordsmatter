@@ -7,9 +7,18 @@
 
 wsm:
 	a culco:ContentiousIssueScheme ;
-	dcterms:title "RDF representation of the English label contentious issues from the Words Matter publication"@en ;
-	dcterms:contributor "TBD"@en ;
-	dcterms:licence "TBD"@en .
+	dcterms:title "RDF representation of the Words Matter publication"@en ;
+	dcterms:description ""@en ;
+	dcterms:created "2022-12-13"^^xsd:date ;
+	dcterms:bibliographicCitation "citation"@en ;
+	dcterms:isReferencedBy "DOI of the paper, URI"@en ;
+	dcterms:hasFormat <https://www.tropenmuseum.nl/sites/default/files/2018-09/WordsMatter_DEF_Totale_PDF_NL_0.pdf>,
+			  <https://www.tropenmuseum.nl/sites/default/files/2021-04/words_matter.pdf.pdf> ;
+	dcterms:isVersionOf <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
+	dcterms:creator <https://orcid.org/0000-0001-9697-101X>,<https://orcid.org/0000-0002-7748-4715>,<https://orcid.org/0000-0002-6865-0021> ;
+	dcterms:licence <https://creativecommons.org/licenses/by-sa/4.0/> ;
+	dcterms:rightsHolder <https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> ;
+	rdfs:seeAlso <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> .
 
 wsm:90
 	a culco:ContentiousIssue ;

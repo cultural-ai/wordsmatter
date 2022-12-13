@@ -3,34 +3,37 @@
 @prefix rdfs: <https://www.w3.org/2000/01/rdf-schema> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> . 
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-culco:ContentiousIssueScheme a rdfs:subClassOf skos:ConceptScheme ;
+culco:ContentiousIssueScheme rdfs:subClassOf skos:ConceptScheme ;
 dcterms:title "Concept Scheme for Words Matter Knowledge Graph"@en .
 
 culco:ContentiousIssue a rdfs:Class ;
-   skos:inScheme culco:ContentiousIssueScheme .
+   skos:inScheme culco:ContentiousIssueScheme ;
+   rdfs:label "Contentious Issue"@en ;
+   rdfs:comment "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"@en .
 
 culco:Suggestion a rdfs:Class .
 
 culco:hasSuggestion a rdf:Property ;
-rdfs:domain ContentiousIssue ;
-rdfs:range Suggestion .
+						rdfs:domain culco:ContentiousIssue ;
+						rdfs:range culco:Suggestion .
 
 culco:hasContentiousLabel a rdf:Property ;
-rdfs:range skosxl:Label .
+						rdfs:range skosxl:Label .
 
 
 culco:hasSuggestedLabel a rdf:Property ;
-rdfs:domain Suggestion ;
-rdfs:range skosxl:Label .
+						rdfs:domain culco:Suggestion ;
+						rdfs:range skosxl:Label .
 
 
 culco:suggestedFor a rdf:property ;
-rdfs:domain Suggestion ;
-rdfs:range skosxl:Label .
+						rdfs:domain culco:Suggestion ;
+						rdfs:range skosxl:Label .
 	
 culco:hasAltLabelExample a rdf:Property ;
-rdfs:domain Suggestion .
+						rdfs:domain culco:Suggestion .
 
 culco:hasUsageExample a rdf:Property  ;
-rdfs:domain Suggestion .
+						rdfs:domain culco:Suggestion .

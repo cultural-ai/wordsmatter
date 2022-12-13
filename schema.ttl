@@ -1,8 +1,7 @@
-@prefix culco: <https://github.com/cultural-ai/wordsmatter/culco#> .
+@prefix culco: <https://w3id.org/culco> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <https://www.w3.org/2000/01/rdf-schema> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 
 culco:ContentiousIssueScheme a rdfs:subClassOf skos:ConceptScheme ;
 dcterms:title "Concept Scheme for Words Matter Knowledge Graph"@en .

@@ -1,5 +1,5 @@
 @prefix wsm: <http://w3id.org/culco/wordsmatter/glossary#> . #glossary
-@prefix culco: <http://w3id.org/culco> . # KG schema W3C ID
+@prefix culco: <http://w3id.org/culco#> . # KG schema W3C ID
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .

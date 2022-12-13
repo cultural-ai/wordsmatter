@@ -11,7 +11,8 @@ wsm:
 	dcterms:description ""@en ;
 	dcterms:created "2022-12-13"^^xsd:date ;
 	dcterms:bibliographicCitation "citation"@en ;
-	dcterms:isReferencedBy "DOI of the paper, URI"@en ;
+	bibo:doi "DOI of the paper, URI"@en ;
+	foaf:depiction "URL to the image"@en ;
 	dcterms:hasFormat <https://www.tropenmuseum.nl/sites/default/files/2018-09/WordsMatter_DEF_Totale_PDF_NL_0.pdf>,
 			  <https://www.tropenmuseum.nl/sites/default/files/2021-04/words_matter.pdf.pdf> ;
 	dcterms:isVersionOf <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;

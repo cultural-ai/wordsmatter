@@ -1,4 +1,4 @@
-@prefix wsm: <http://w3id.org/culco/wordsmatter/glossary#> . #glossary
+@prefix wsm: <http://w3id.org/culco/wordsmatter#> . #glossary
 @prefix culco: <http://w3id.org/culco#> . # KG schema W3C ID
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .

@@ -2,6 +2,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <https://www.w3.org/2000/01/rdf-schema> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> . 
 
 culco:ContentiousIssueScheme a rdfs:subClassOf skos:ConceptScheme ;
 dcterms:title "Concept Scheme for Words Matter Knowledge Graph"@en .
@@ -11,30 +12,25 @@ culco:ContentiousIssue a rdfs:Class ;
 
 culco:Suggestion a rdfs:Class .
 
-culco:hasSuggestion
-rdfs:domain ContentiousIssue
-rdfs:range Suggestion
-	a rdf:Property .
+culco:hasSuggestion a rdf:Property ;
+rdfs:domain ContentiousIssue ;
+rdfs:range Suggestion .
 
-culco:hasContentiousLabel
-rdfs:domain 
-rdfs:range skosxl:Label
-	a rdf:Property .
+culco:hasContentiousLabel a rdf:Property ;
+rdfs:range skosxl:Label .
 
-culco:hasSuggestedLabel
-:domain Suggestiob
-:range skosxl:Label
-	a rdf:Property .
 
-culco:suggestedFor
-:domain Suggestion
-:range skosxl:Label
-	a rdf:property .
+culco:hasSuggestedLabel a rdf:Property ;
+rdfs:domain Suggestion ;
+rdfs:range skosxl:Label .
 
-culco:hasAltLabelExample
-	a rdf:Property .
-:domain Suggestion
 
-culco:hasUsageExample
-	a rdf:Property  .
-:domain Suggestion
+culco:suggestedFor a rdf:property ;
+rdfs:domain Suggestion ;
+rdfs:range skosxl:Label .
+	
+culco:hasAltLabelExample a rdf:Property ;
+rdfs:domain Suggestion .
+
+culco:hasUsageExample a rdf:Property  ;
+rdfs:domain Suggestion .

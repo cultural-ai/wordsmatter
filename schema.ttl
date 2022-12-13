@@ -5,12 +5,12 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 #@prefix wsm: <https://github.com/cultural-ai/wordsmatter/glossary#> .
 
-culco:ConceptScheme a rdfs:Class ;
+culco:ContentiousIssueScheme a rdfs:subClassOf skos:ConceptScheme ;
 dcterms:title "Concept Scheme for Words Matter Knowledge Graph"@en .
 
 culco:inScheme
 	a rdf:Property ;
-	rdfs:range culco:ConceptScheme ;
+	rdfs:range culco:ContentiousIssueScheme ;
 	rdfs:domain culco:ContentiousIssue . # here anything can be a domain?
 
 <https://github.com/cultural-ai/wordsmatter/culco#>

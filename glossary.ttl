@@ -1351,8 +1351,6 @@ wsm:143_s_01
 	culco:suggestedFor
 		wsm:l_115 .
 
-
-
 wsm:144
 	a culco:ContentiousIssue ;
 	dcterms:title "White"@en ;
@@ -1360,7 +1358,8 @@ wsm:144
 	dcterms:references
 		wsm:95 ;
 	culco:hasContentiousLabel
-		wsm:l_16 ;
+		wsm:l_16,
+		wsm:l_161 ;
 	culco:hasSuggestion
 		wsm:144_s_01 .
 

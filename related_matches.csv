@@ -1,4 +1,4 @@
-label_uri,literal,lang,query_terms,aat,wikidata,pwn,odwn,NMVW
+label_uri,literal,lang,query_terms,aat,wikidata,pwn,odwn,nmvw
 l_01,Aboriginal,en,aboriginal_aboriginals,300379660,Q103817,native.n.01_native.a.03,None,None
 l_07,Allochtoon,en,allochtoon_allochtoons,None,Q2008347,None,None,None
 l_100,Baboo,en,baboo_baboos,None,None,None,None,None
@@ -92,7 +92,7 @@ l_165,Calcutta,nl,calcutta,None,Q1348,None,Calcutta-n-1,10063844
 l_174,Derde Wereld,nl,derde wereld,None,Q180194,None,None,None
 l_179,Dwerg,nl,dwerg_dwergen,300236748,Q2419953,None,dwerg-n-1,None
 l_175,Eerste Wereld,nl,eerste wereld,None,Q876830,None,None,None
-l_185,Eskimo,nl,eskimo_ eskimo's,300017447,Q131242,None,Eskimo-n-1,10075943
+l_185,Eskimo,nl,eskimo_eskimo's,300017447,Q131242,None,Eskimo-n-1,10075943
 l_193,Etniciteit,nl,etniciteit_etniciteiten,300250435,Q5404323,None,etniciteit-n-1,None
 l_194,etnische groep,nl,etnische groep_etnische groepen,300191997,Q41710,None,None,None
 l_196,Exotisch,nl,exotisch_exotischere_exotischer_exotische,None,None,None,None,None
@@ -102,14 +102,14 @@ l_198,Gekleurd,nl,gekleurd_gekleurdste_gekleurdst_gekleurds_gekleurde_gekleurder
 l_204,Halfbloed,nl,halfbloed_halfbloeden,None,None,None,halfbloed-n-1,None
 l_210,Handicap,nl,handicap_handicaps,None,Q12131,None,handicap-n-1,None
 l_213,Hermafrodiet,nl,hermafrodiet_hermafrodieten,300386060,Q303479,None,hermafrodiet-n-1,None
-l_217,Homo,nl,homo_ homo's,None,Q104969456,None,homo-n-1,None
+l_217,Homo,nl,homohomo's,None,Q104969456,None,homo-n-1,None
 l_219,Homoseksualiteit,nl,homoseksualiteit,300055188,Q6636,None,homoseksualiteit-n-2_homoseksualiteit-n-3,None
 l_218,Homoseksueel,nl,homoseksueel_homoseksueler_homoseksueelste_homoseksuelere_homoseksueelst_homoseksueels_homoseksuelen_homoseksuele,None,Q592,None,homoseksueel-n-1,None
 l_224,Hottentot,nl,hottentot_hottentotten,None,Q219252,None,Hottentot-n-1,10078204
 l_226,Inboorling,nl,inboorling_inboorlingen,None,None,None,inboorling-n-1,None
 l_228,Indiaan,nl,indiaan_indianen_indiaans,300017437,Q36747,None,Indiaan-n-1,None
 l_229,Indisch,nl,indisch_indischer_indische_indischere,300418042,Q188161,None,None,10077429
-l_230,Indo,nl,indo_ indo's,300386794,Q2116909,None,None,None
+l_230,Indo,nl,indoindo's,300386794,Q2116909,None,None,None
 l_232,Inheems,nl,inheems_inheemst_inheemse_inheemsere_inheemste_inheemser,300379660,Q103817,None,None,10075993
 l_227,Inlander,nl,inlander_inlanders,None,Q1945590,None,inlander-n-1,None
 l_287,Inuit,nl,inuk_inuit,300017455,Q189975,None,Inuit-n-1,10075943

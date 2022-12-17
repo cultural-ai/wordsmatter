@@ -42,7 +42,7 @@ l_66,Indo,en,indo#indos,300386794,Q475027,None,None,None
 l_116,Inuit,en,inuit#inuits,300017455,Q189975,eskimo.n.01,None,None
 l_74,Kaffir,en,kaffir#kaffirs,None,Q1285250,kaffir.n.02,None,None
 l_120,lilliputian,en,lilliputian#lilliputians,None,Q2419953,lilliputian.n.01,None,None
-l_108,low-income countries,en,low-income countries#low-income country,None,Q25450947,None,None,None
+l_108,low-income countries,en,low income countries#low income country,None,Q25450947,None,None,None
 l_20,Madras,en,madras,None,Q1352,chennai.n.01,None,None
 l_25,Maroon,en,maroon#maroons,300443390,Q445485,None,None,None
 l_76,Medicine Man,en,medicine man#medicine men,300218522,Q266750,None,None,None
@@ -109,7 +109,7 @@ l_224,Hottentot,nl,hottentot#hottentotten,None,Q219252,None,Hottentot-n-1,100782
 l_226,Inboorling,nl,inboorling#inboorlingen,None,None,None,inboorling-n-1,None
 l_228,Indiaan,nl,indiaan#indianen#indiaans,300017437,Q36747,None,Indiaan-n-1,None
 l_229,Indisch,nl,indisch#indischer#indische#indischere,300418042,Q188161,None,None,10077429
-l_230,Indo,nl,indoindo's,300386794,Q2116909,None,None,None
+l_230,Indo,nl,indo#indo's,300386794,Q2116909,None,None,None
 l_232,Inheems,nl,inheems#inheemst#inheemse#inheemsere#inheemste#inheemser,300379660,Q103817,None,None,10075993
 l_227,Inlander,nl,inlander#inlanders,None,Q1945590,None,inlander-n-1,None
 l_287,Inuit,nl,inuk#inuit,300017455,Q189975,None,Inuit-n-1,10075943

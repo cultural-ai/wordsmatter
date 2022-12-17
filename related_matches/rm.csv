@@ -62,7 +62,7 @@ l_92,Pygmy,en,pygmy#pygmys,300016430,Q171927,pygmy.n.01#pygmy.n.02,None,None
 l_93,Queer,en,queer#queerest#queerer#queers,300055188,Q51415,fagot.n.01#gay.s.06,None,None
 l_95,Race,en,race#races,300256475,Q3254959,race.n.03,None,None
 l_68,retarded,en,retarded,300025925,Q18394147,mentally_retarded.n.01#retarded.a.01,None,None
-l_96,Roots,en,roots,None,None,ancestor.n.01,None,None
+l_96,Roots,en,roots#root,None,None,ancestor.n.01,None,None
 l_106,Second World,en,second world,None,Q233472,None,None,None
 l_97,Servant,en,servant#servants,300025874,Q54128,servant.n.01,None,None
 l_101,Slave,en,slave#slaves,300230899,Q12773225,slave.n.01,None,None

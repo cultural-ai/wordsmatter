@@ -13,27 +13,39 @@ culco:ContentiousIssue a rdfs:Class ;
    rdfs:label "Contentious Issue"@en ;
    rdfs:comment "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"@en .
 
-culco:Suggestion a rdfs:Class .
+culco:Suggestion a rdfs:Class ;
+	rdfs:label "Suggestion"@en ;
+	rdfs:comment "A suggestion gives recommendations on how to use a contentious term. It can be a general textual suggestion or have concrete alternatives: words and phrases to be used instead of a contentious term in specific contexts. A suggestion can refer to multiple contentious terms. Usually, a Suggestion is a part of a Contentious Issue"@en .
 
 culco:hasSuggestion a rdf:Property ;
 						rdfs:domain culco:ContentiousIssue ;
-						rdfs:range culco:Suggestion .
+						rdfs:range culco:Suggestion ;
+						rdfs:label "hasSuggestion"@en ;
+						rdfs:comment "Used to link Contentious Issue to a Suggestion. Contentious Issue may have several Suggestions"@en. 
 
 culco:hasContentiousLabel a rdf:Property ;
-						rdfs:range skosxl:Label .
-
+						rdfs:range skosxl:Label ;
+						rdfs:label "hasContentiousLabel"@en ;
+						rdfs:comment "Used to link Contentious Issue to the contentious label(s) it mentions. Technically, Suggestion may also mention contentious labels"@en .
 
 culco:hasSuggestedLabel a rdf:Property ;
 						rdfs:domain culco:Suggestion ;
-						rdfs:range skosxl:Label .
-
+						rdfs:range skosxl:Label ;
+						rdfs:label "hasSuggestedLabel"@en ;
+						rdfs:comment "Used to link Suggestion to the suggested label(s) it mentions."@en .
 
 culco:suggestedFor a rdf:property ;
 						rdfs:domain culco:Suggestion ;
-						rdfs:range skosxl:Label .
+						rdfs:range skosxl:Label ;
+						rdfs:label "suggestedFor"@en ;
+						rdfs:comment "Used to link Suggestion to the contentious label(s) it is suggested for."@en .
 	
 culco:hasAltLabelExample a rdf:Property ;
-						rdfs:domain culco:Suggestion .
+						rdfs:domain culco:Suggestion ;
+						rdfs:label "hasAltLabelExample"@en ;
+						rdfs:comment "Used with Suggestions when a suggestion gives an example of a contextually appropriate synonym, but not a complete alternative to a contentious label. For example,  the term 'Moroccan-Dutch' is one of the possible alternatives for the contentious term 'Allochtoon'"@en .
 
 culco:hasUsageExample a rdf:Property  ;
-						rdfs:domain culco:Suggestion .
+						rdfs:domain culco:Suggestion ;
+						rdfs:label "hasUsageExample"@en ;
+						rdfs:comment "Used with Suggestions when it gives an example of how a contentious term or its synonym can be used appropriately in speech; usually, it is a phrase providing additional context in which it is appropriate to use the mentioned terms, for example, the phrase 'There was an artistic movement called ‘primitivism’ for the term 'Primitive'"@en .

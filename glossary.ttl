@@ -8,6 +8,11 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+@prefix pwnid: <http://wordnet-rdf.princeton.edu/id/> .
+
+# Contentious Issues
 
 wsm:
 	a culco:ContentiousIssueScheme ;
@@ -2766,7 +2771,7 @@ wsm:149_nl_s_01
 	culco:suggestedFor
 		wsm:l_199 .
 
-# terms
+# Labels
 
 wsm:l_01
 	a skosxl:Label ;
@@ -3978,3 +3983,143 @@ wsm:l_287
 wsm:l_288
 	a skosxl:Label ;
 	skosxl:literalForm "Métis"@nl .
+
+# Related matches
+
+wsm:l_01 skos:relatedMatch wikidata:Q103817,aat:300379660,pwnid:09643964-n,pwnid:01040830-a .
+wsm:l_07 skos:relatedMatch wikidata:Q2008347 .
+wsm:l_10 skos:relatedMatch wikidata:Q134313,pwnid:10572830-n,pwnid:10430560-n,pwnid:00413865-a .
+wsm:l_21 skos:relatedMatch wikidata:Q1199713 .
+wsm:l_11 skos:relatedMatch wikidata:Q45315,aat:300016593,pwnid:09869725-n .
+wsm:l_14 skos:relatedMatch wikidata:Q817393,aat:300435249,pwnid:09659490-n,pwnid:00243558-a .
+wsm:l_17 skos:relatedMatch wikidata:Q1156,pwnid:08923840-n .
+wsm:l_22 skos:relatedMatch wikidata:Q836,pwnid:08733223-n .
+wsm:l_19 skos:relatedMatch wikidata:Q1348,pwnid:08923604-n .
+wsm:l_26 skos:relatedMatch wikidata:Q7129609,aat:300244536,pwnid:09660255-n,pwnid:00244343-a .
+wsm:l_27 skos:relatedMatch wikidata:Q5149038,pwnid:00244035-a .
+wsm:l_32 skos:relatedMatch wikidata:Q548135,pwnid:09663914-n .
+wsm:l_33 skos:relatedMatch wikidata:Q89659343,pwnid:04930920-n,pwnid:13835254-n,pwnid:08118903-n .
+wsm:l_107 skos:relatedMatch aat:300379994 .
+wsm:l_34 skos:relatedMatch wikidata:Q15978181,aat:300025921,pwnid:07962874-n,pwnid:00091720-v,pwnid:01022875-a .
+wsm:l_39 skos:relatedMatch aat:300236748,pwnid:10060141-n .
+wsm:l_43 skos:relatedMatch wikidata:Q131242,aat:300017447,pwnid:10083442-n .
+wsm:l_45 skos:relatedMatch wikidata:Q41710,aat:300191997 .
+wsm:l_44 skos:relatedMatch wikidata:Q5404323,aat:300250435,pwnid:04806382-n .
+wsm:l_105 skos:relatedMatch wikidata:Q876830,aat:300449024 .
+wsm:l_99 skos:relatedMatch wikidata:Q4382663,pwnid:10121750-n .
+wsm:l_47 skos:relatedMatch wikidata:Q592,aat:300055188,pwnid:10202544-n,pwnid:01205390-a .
+wsm:l_48 skos:relatedMatch wikidata:Q8060,aat:300404070,pwnid:10173755-n,pwnid:09642482-n .
+wsm:l_52 skos:relatedMatch wikidata:Q17144151,pwnid:10177117-n .
+wsm:l_119 skos:relatedMatch wikidata:Q12131,aat:300025921,pwnid:14571935-n,pwnid:00091720-v .
+wsm:l_57 skos:relatedMatch wikidata:Q303479,aat:300386060,pwnid:10191752-n .
+wsm:l_59 skos:relatedMatch wikidata:Q592,aat:300435115,pwnid:10202544-n,pwnid:01204965-a .
+wsm:l_60 skos:relatedMatch wikidata:Q1631241,aat:300016575 .
+wsm:l_134 skos:relatedMatch wikidata:Q12547146,aat:300025844,pwnid:10219108-n .
+wsm:l_63 skos:relatedMatch wikidata:Q49297,aat:300017437,pwnid:02939379-a .
+wsm:l_64 skos:relatedMatch wikidata:Q103817,aat:300379660,pwnid:01040065-a .
+wsm:l_66 skos:relatedMatch wikidata:Q475027,aat:300386794 .
+wsm:l_116 skos:relatedMatch wikidata:Q189975,aat:300017455,pwnid:10083442-n .
+wsm:l_74 skos:relatedMatch wikidata:Q1285250,pwnid:10248534-n .
+wsm:l_120 skos:relatedMatch wikidata:Q2419953,pwnid:10282577-n .
+wsm:l_108 skos:relatedMatch wikidata:Q25450947 .
+wsm:l_20 skos:relatedMatch wikidata:Q1352,pwnid:08924360-n .
+wsm:l_25 skos:relatedMatch wikidata:Q445485,aat:300443390 .
+wsm:l_76 skos:relatedMatch wikidata:Q266750,aat:300218522 .
+wsm:l_54 skos:relatedMatch wikidata:Q106713,pwnid:10331490-n .
+wsm:l_117 skos:relatedMatch wikidata:Q262457,aat:300265512 .
+wsm:l_79 skos:relatedMatch wikidata:Q2367463,aat:300073715,pwnid:10346668-n,pwnid:03046627-a .
+wsm:l_81 skos:relatedMatch wikidata:Q207912,pwnid:10348407-n,pwnid:10348226-n,pwnid:03099367-a,pwnid:03099143-a,pwnid:03099007-a .
+wsm:l_82 skos:relatedMatch wikidata:Q169260,aat:300375152,pwnid:09742775-n .
+wsm:l_83 skos:relatedMatch wikidata:Q191923,pwnid:09659834-n .
+wsm:l_84 skos:relatedMatch aat:300017437,pwnid:09643964-n,pwnid:09644402-n,pwnid:01039765-a,pwnid:01040830-a .
+wsm:l_85 skos:relatedMatch wikidata:Q1130557,aat:300018125,pwnid:09659490-n,pwnid:00244035-a .
+wsm:l_86 skos:relatedMatch aat:300018279,pwnid:00829356-a .
+wsm:l_98 skos:relatedMatch wikidata:Q855855,pwnid:10411115-n,pwnid:10410947-n .
+wsm:l_90 skos:relatedMatch wikidata:Q13165863,aat:300056500,pwnid:09650650-n,pwnid:00821744-a,pwnid:00414509-a,pwnid:01919239-a .
+wsm:l_91 skos:relatedMatch wikidata:Q848365,aat:300056548,pwnid:14496208-n,pwnid:04009468-n .
+wsm:l_92 skos:relatedMatch wikidata:Q171927,aat:300016430,pwnid:10516211-n,pwnid:10516074-n .
+wsm:l_93 skos:relatedMatch wikidata:Q51415,aat:300055188,pwnid:10095821-n,pwnid:01205390-a .
+wsm:l_95 skos:relatedMatch wikidata:Q3254959,aat:300256475,pwnid:07984596-n .
+wsm:l_68 skos:relatedMatch wikidata:Q18394147,aat:300025925,pwnid:07965557-n,pwnid:01846281-a .
+wsm:l_106 skos:relatedMatch wikidata:Q233472 .
+wsm:l_97 skos:relatedMatch wikidata:Q54128,aat:300025874,pwnid:10601606-n .
+wsm:l_101 skos:relatedMatch wikidata:Q12773225,aat:300230899,pwnid:10628841-n .
+wsm:l_23 skos:relatedMatch wikidata:Q750583 .
+wsm:l_104 skos:relatedMatch wikidata:Q180194,aat:300379994 .
+wsm:l_109 skos:relatedMatch aat:300435679,pwnid:00613438-a .
+wsm:l_111 skos:relatedMatch wikidata:Q189125 .
+wsm:l_112 skos:relatedMatch wikidata:Q112918934,aat:300400510,pwnid:10745683-n,pwnid:02608907-a .
+wsm:l_114 skos:relatedMatch wikidata:Q133311,aat:300049946,pwnid:08389338-n,pwnid:08185430-n,pwnid:07986142-n .
+wsm:l_115 skos:relatedMatch wikidata:Q160381,pwnid:00828657-a .
+wsm:l_16 skos:relatedMatch wikidata:Q235155,pwnid:09660255-n,pwnid:00244146-a,pwnid:01330632-a .
+wsm:l_142 skos:relatedMatch wikidata:Q170355,aat:300021862,<https://hdl.handle.net/20.500.11840/termmaster10076668> .
+wsm:l_259 skos:relatedMatch aat:300025925 .
+wsm:l_149 skos:relatedMatch wikidata:Q1642895 .
+wsm:l_150 skos:relatedMatch wikidata:Q2008347 .
+wsm:l_157 skos:relatedMatch wikidata:Q936969 .
+wsm:l_153 skos:relatedMatch wikidata:Q134313 .
+wsm:l_167 skos:relatedMatch wikidata:Q1199713,<https://hdl.handle.net/20.500.11840/termmaster10063182> .
+wsm:l_154 skos:relatedMatch wikidata:Q833860,aat:300025874 .
+wsm:l_158 skos:relatedMatch wikidata:Q45315,aat:300016593,<https://hdl.handle.net/20.500.11840/termmaster10078557> .
+wsm:l_168 skos:relatedMatch wikidata:Q836,<https://hdl.handle.net/20.500.11840/termmaster10063469> .
+wsm:l_161 skos:relatedMatch wikidata:Q235155 .
+wsm:l_163 skos:relatedMatch wikidata:Q1156,<https://hdl.handle.net/20.500.11840/termmaster10063974> .
+wsm:l_173 skos:relatedMatch wikidata:Q445485,<https://hdl.handle.net/20.500.11840/termmaster10076611> .
+wsm:l_170 skos:relatedMatch wikidata:Q445485,<https://hdl.handle.net/20.500.11840/termmaster10076611> .
+wsm:l_165 skos:relatedMatch wikidata:Q1348,<https://hdl.handle.net/20.500.11840/termmaster10063844> .
+wsm:l_174 skos:relatedMatch wikidata:Q180194 .
+wsm:l_179 skos:relatedMatch wikidata:Q2419953,aat:300236748 .
+wsm:l_175 skos:relatedMatch wikidata:Q876830 .
+wsm:l_185 skos:relatedMatch wikidata:Q131242,aat:300017447,<https://hdl.handle.net/20.500.11840/termmaster10075943> .
+wsm:l_193 skos:relatedMatch wikidata:Q5404323,aat:300250435 .
+wsm:l_194 skos:relatedMatch wikidata:Q41710,aat:300191997 .
+wsm:l_197 skos:relatedMatch wikidata:Q592 .
+wsm:l_211 skos:relatedMatch wikidata:Q15978181,aat:300025921 .
+wsm:l_198 skos:relatedMatch wikidata:Q2072081 .
+wsm:l_210 skos:relatedMatch wikidata:Q12131 .
+wsm:l_213 skos:relatedMatch wikidata:Q303479,aat:300386060 .
+wsm:l_217 skos:relatedMatch wikidata:Q104969456 .
+wsm:l_219 skos:relatedMatch wikidata:Q6636,aat:300055188 .
+wsm:l_218 skos:relatedMatch wikidata:Q592 .
+wsm:l_224 skos:relatedMatch wikidata:Q219252,<https://hdl.handle.net/20.500.11840/termmaster10078204> .
+wsm:l_228 skos:relatedMatch wikidata:Q36747,aat:300017437 .
+wsm:l_229 skos:relatedMatch wikidata:Q188161,aat:300418042,<https://hdl.handle.net/20.500.11840/termmaster10077429> .
+wsm:l_230 skos:relatedMatch wikidata:Q2116909,aat:300386794 .
+wsm:l_232 skos:relatedMatch wikidata:Q103817,aat:300379660,<https://hdl.handle.net/20.500.11840/termmaster10075993> .
+wsm:l_227 skos:relatedMatch wikidata:Q1945590 .
+wsm:l_287 skos:relatedMatch wikidata:Q189975,aat:300017455,<https://hdl.handle.net/20.500.11840/termmaster10075943> .
+wsm:l_234 skos:relatedMatch wikidata:Q47740 .
+wsm:l_237 skos:relatedMatch wikidata:Q1192767 .
+wsm:l_238 skos:relatedMatch wikidata:Q2432369 .
+wsm:l_236 skos:relatedMatch wikidata:Q2432369 .
+wsm:l_244 skos:relatedMatch wikidata:Q1285250 .
+wsm:l_245 skos:relatedMatch wikidata:Q7129609,aat:300244536 .
+wsm:l_246 skos:relatedMatch wikidata:Q548135 .
+wsm:l_178 skos:relatedMatch wikidata:Q2639564 .
+wsm:l_180 skos:relatedMatch wikidata:Q2419953 .
+wsm:l_166 skos:relatedMatch wikidata:Q1352,<https://hdl.handle.net/20.500.11840/termmaster10063793> .
+wsm:l_172 skos:relatedMatch wikidata:Q445485,<https://hdl.handle.net/20.500.11840/termmaster10076611> .
+wsm:l_253 skos:relatedMatch wikidata:Q42042 .
+wsm:l_209 skos:relatedMatch wikidata:Q106713 .
+wsm:l_288 skos:relatedMatch wikidata:Q262457,aat:300265512 .
+wsm:l_256 skos:relatedMatch wikidata:Q47740 .
+wsm:l_258 skos:relatedMatch wikidata:Q207912,aat:300387497 .
+wsm:l_261 skos:relatedMatch wikidata:Q169260,aat:300021016,<https://hdl.handle.net/20.500.11840/termmaster10078542> .
+wsm:l_208 skos:relatedMatch wikidata:Q191923 .
+wsm:l_171 skos:relatedMatch wikidata:Q1130557 .
+wsm:l_177 skos:relatedMatch wikidata:Q177323,aat:300379994 .
+wsm:l_155 skos:relatedMatch wikidata:Q855855 .
+wsm:l_265 skos:relatedMatch wikidata:Q278039 .
+wsm:l_268 skos:relatedMatch wikidata:Q848365,aat:300056548 .
+wsm:l_269 skos:relatedMatch wikidata:Q171927,aat:300016430,<https://hdl.handle.net/20.500.11840/termmaster10078766> .
+wsm:l_270 skos:relatedMatch wikidata:Q51415 .
+wsm:l_195 skos:relatedMatch wikidata:Q3254959,aat:300256475 .
+wsm:l_273 skos:relatedMatch wikidata:Q12773225,aat:300230899,<https://hdl.handle.net/20.500.11840/termmaster20404> .
+wsm:l_276 skos:relatedMatch wikidata:Q133311,aat:300049946 .
+wsm:l_280 skos:relatedMatch wikidata:Q486680 .
+wsm:l_176 skos:relatedMatch wikidata:Q233472 .
+wsm:l_282 skos:relatedMatch wikidata:Q160381 .
+wsm:l_200 skos:relatedMatch wikidata:Q235155 .
+wsm:l_283 skos:relatedMatch wikidata:Q76475,aat:300404070,<https://hdl.handle.net/20.500.11840/termmaster10075876> .
+wsm:l_169 skos:relatedMatch wikidata:Q750583 .
+wsm:l_199 skos:relatedMatch wikidata:Q817393 .

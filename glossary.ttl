@@ -1,5 +1,5 @@
-@prefix wsm: <https://w3id.org/culco/wordsmatter/> .
-@prefix culco: <http://w3id.org/culco#> .
+@prefix wsm: <https://w3id.org/culco/wordsmatter#> . #glossary
+@prefix culco: <http://w3id.org/culco#> . # KG schema W3C ID
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema> .
@@ -17,11 +17,9 @@
 wsm:
 	a culco:ContentiousIssueScheme ;
 	dcterms:title "RDF representation of the Words Matter publication"@en ;
-	dcterms:description ""@en ;
+	dcterms:description "A bilingual (English and Dutch) knowledge graph of contentious museum terminology based on the glossaries provided in the Words Matter publication by the Dutch National Museum of World Cultures. It contains 75 English and 83 Dutch contentious terms linked to explanations of their usage, suggestions from experts, including 89 alternative terms, and related entities from four LOD-datasets: Wikidata, Getty AAT, Princeton WordNet, and the NMVW-thesaurus"@en ;
 	dcterms:created "2022-12-13"^^xsd:date ;
-	dcterms:bibliographicCitation "citation"@en ;
-	bibo:doi "DOI of the paper, URI"@en ;
-	foaf:depiction "URL to the image"@en ;
+	foaf:depiction <https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png> ;
 	dcterms:hasFormat <https://www.tropenmuseum.nl/sites/default/files/2018-09/WordsMatter_DEF_Totale_PDF_NL_0.pdf>,
 			  <https://www.tropenmuseum.nl/sites/default/files/2021-04/words_matter.pdf.pdf> ;
 	dcterms:isVersionOf <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;

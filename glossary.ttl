@@ -1,5 +1,5 @@
-@prefix wsm: <https://w3id.org/culco/wordsmatter#> . #glossary
-@prefix culco: <http://w3id.org/culco#> . # KG schema W3C ID
+@prefix wsm: <https://w3id.org/culco/wordsmatter/> .
+@prefix culco: <http://w3id.org/culco#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema> .

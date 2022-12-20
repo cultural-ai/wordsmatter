@@ -9,6 +9,7 @@ In [the knowledge graph](https://github.com/cultural-ai/wordsmatter/blob/main/gl
 The Jupyter notebook [competency_questions.ipynb](https://github.com/cultural-ai/wordsmatter/blob/main/competency_questions.ipynb) demonstrates what kind of information it is possible to retrive from the knowledge graph.
 
 The knowledge graph [concept scheme](https://github.com/cultural-ai/wordsmatter/blob/main/schema.ttl) with 3 custom classes and 6 custom properties is presented below on the diagram:
+
 ![The knowledge graph concept scheme](https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png)
 
 The developed knowledge graph has been given persistent W3id.org URIs, documented according to FAIR practices (the documentaion properties are included in the .ttl files), and made openly available for reuse with the license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

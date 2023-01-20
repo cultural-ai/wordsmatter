@@ -17,3 +17,29 @@ The developed knowledge graph has been given persistent W3id.org URIs, documente
 To access the knowledge graph, use https://w3id.org/culco/wordsmatter/. The concept scheme is available at http://w3id.org/culco#
 
 We have also made the knowledge graph available on [TriplyDB](https://triplydb.com/AndreiNesterov/Words-Matter-LOD/)
+
+### Related matches
+
+The knowledge graph has URIs of contentious labels, which we link to four LOD-resources: controlled vocabularies used by cultural heritage institutions (Wereldculturen Thesaurus (NMVW) and Getty AAT) and commonly used LOD-resources (Wikidata and Princeton WordNet 3.1).
+NMVW is a thesaurus of the Dutch National Museum of World Cultures, which published the original glossaries.
+
+###### The process of identifying related matches:
+
+1. Collecting a list of query terms for every contentious label:
+-	[getting_word_forms.ipynb](https://github.com/cultural-ai/wordsmatter/blob/main/getting_word_forms.ipynb): collecting word forms for every contentious label from [DBnary](http://kaiko.getalp.org/about-dbnary/) (for English terms) and [INT](https://ivdnt.org/corpora-lexica/corpora/#corpus-compilation) (for Dutch terms)
+-	[wordforms_added_manually.json](https://github.com/cultural-ai/wordsmatter/blob/main/wordforms_added_manually.json): missing word forms for some contentious labels were added manually
+-	[getting_query_terms.ipynb](https://github.com/cultural-ai/wordsmatter/blob/main/getting_query_terms.ipynb): generating a list of query terms for every contentious label; [query_terms_cont_en.json](https://github.com/cultural-ai/wordsmatter/blob/main/query_terms_cont_en.json): English query terms, [query_terms_cont_nl.json](https://github.com/cultural-ai/wordsmatter/blob/main/query_terms_cont_nl.json): Dutch query terms; 
+
+2. Querying LOD-resources:
+–	Wikidata, Getty AAT, Princeton WordNet were queried using their web-interface
+–	Querying NMVW: see the directory [NMVW](https://github.com/cultural-ai/wordsmatter/tree/main/NMVW) 
+
+3. Selecting related matched in every resource based on guidelines:
+–	all related matches rep resource per contentious label: [rm.csv](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/rm.csv), [rm.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/rm.json)
+–	synsets from Princeton WordNet 3.1 are mapped to PWNIDs: [synset2pwnid_mappings.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/synset2pwnid_mappings.json) 
+
+4. Getting literal values of related matches in every resource
+–	see the module [LODlitParser](https://github.com/cultural-ai/wordsmatter/tree/main/LODlitParser)
+–	the resulting files: [aat_rm_en.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/aat_rm_en.json), [aat_rm_nl.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/aat_rm_nl.json), [wikidata_rm_en.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/wikidata_rm_en.json), [wikidata_rm_nl.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/wikidata_rm_nl.json), [pwn_rm.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/pwn_rm.json), [nmvw_rm.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/nmvw_rm.json).
+
+Contentious labels are linked to the URIs of their related matches with the property skos:relatedMatch.

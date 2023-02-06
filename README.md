@@ -13,6 +13,7 @@ The knowledge graph [concept scheme](https://github.com/cultural-ai/wordsmatter/
 ![The knowledge graph concept scheme](https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png)
 
 The developed knowledge graph has been given persistent W3id.org URIs, documented according to FAIR practices (the documentaion properties are included in the .ttl files), and made openly available for reuse with the license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+The HTML-version of the scheme documentation was made with [WIDOCO](https://zenodo.org/badge/latestdoi/11427075).
 
 To access the knowledge graph, use https://w3id.org/culco/wordsmatter/. The concept scheme is available at http://w3id.org/culco#
 

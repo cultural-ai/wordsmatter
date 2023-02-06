@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="https://www.w3.org/2000/01/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- https://www.w3.org/2000/01/rdf-schemacomment -->
+
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2000/01/rdf-schemacomment"/>
+    
+
+
+    <!-- https://www.w3.org/2000/01/rdf-schemadomain -->
+
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2000/01/rdf-schemadomain"/>
+    
+
+
+    <!-- https://www.w3.org/2000/01/rdf-schemalabel -->
+
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2000/01/rdf-schemalabel"/>
+    
+
+
+    <!-- https://www.w3.org/2000/01/rdf-schemarange -->
+
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2000/01/rdf-schemarange"/>
+    
+
+
+    <!-- https://www.w3.org/2000/01/rdf-schemasubClassOf -->
+
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2000/01/rdf-schemasubClassOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#property -->
+
+
+    <Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#property"/>
+    
+
+
+    <!-- https://www.w3.org/2000/01/rdf-schemaClass -->
+
+
+    <Class rdf:about="https://www.w3.org/2000/01/rdf-schemaClass"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/culcoContentiousIssue -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/culcoContentiousIssue">
+        <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schemaClass"/>
+        <skos:inScheme rdf:resource="https://w3id.org/culcoContentiousIssueScheme"/>
+        <www:rdf-schemacomment xml:lang="en">Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term&apos;s usage, and suggestions</www:rdf-schemacomment>
+        <www:rdf-schemalabel xml:lang="en">Contentious Issue</www:rdf-schemalabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/culcoSuggestion -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/culcoSuggestion">
+        <rdf:type rdf:resource="https://www.w3.org/2000/01/rdf-schemaClass"/>
+        <www:rdf-schemacomment xml:lang="en">A suggestion gives recommendations on how to use a contentious term. It can be a general textual suggestion or have concrete alternatives: words and phrases to be used instead of a contentious term in specific contexts. A suggestion can refer to multiple contentious terms. Usually, a Suggestion is a part of a Contentious Issue</www:rdf-schemacomment>
+        <www:rdf-schemalabel xml:lang="en">Suggestion</www:rdf-schemalabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/culcosuggestedFor -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/culcosuggestedFor">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#property"/>
+        <www:rdf-schemacomment xml:lang="en">Used to link Suggestion to the contentious label(s) it is suggested for.</www:rdf-schemacomment>
+        <www:rdf-schemadomain rdf:resource="https://w3id.org/culcoSuggestion"/>
+        <www:rdf-schemalabel xml:lang="en">suggestedFor</www:rdf-schemalabel>
+        <www:rdf-schemarange rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/culcoContentiousIssueScheme">
+        <terms:title xml:lang="en">Concept Scheme for Words Matter Knowledge Graph</terms:title>
+        <www:rdf-schemasubClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/culcohasAltLabelExample">
+        <www:rdf-schemacomment xml:lang="en">Used with Suggestions when a suggestion gives an example of a contextually appropriate synonym, but not a complete alternative to a contentious label. For example,  the term &apos;Moroccan-Dutch&apos; is one of the possible alternatives for the contentious term &apos;Allochtoon&apos;</www:rdf-schemacomment>
+        <www:rdf-schemadomain rdf:resource="https://w3id.org/culcoSuggestion"/>
+        <www:rdf-schemalabel xml:lang="en">hasAltLabelExample</www:rdf-schemalabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/culcohasContentiousLabel">
+        <www:rdf-schemacomment xml:lang="en">Used to link Contentious Issue to the contentious label(s) it mentions. Technically, Suggestion may also mention contentious labels</www:rdf-schemacomment>
+        <www:rdf-schemalabel xml:lang="en">hasContentiousLabel</www:rdf-schemalabel>
+        <www:rdf-schemarange rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/culcohasSuggestedLabel">
+        <www:rdf-schemacomment xml:lang="en">Used to link Suggestion to the suggested label(s) it mentions.</www:rdf-schemacomment>
+        <www:rdf-schemadomain rdf:resource="https://w3id.org/culcoSuggestion"/>
+        <www:rdf-schemalabel xml:lang="en">hasSuggestedLabel</www:rdf-schemalabel>
+        <www:rdf-schemarange rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/culcohasSuggestion">
+        <www:rdf-schemacomment xml:lang="en">Used to link Contentious Issue to a Suggestion. Contentious Issue may have several Suggestions</www:rdf-schemacomment>
+        <www:rdf-schemadomain rdf:resource="https://w3id.org/culcoContentiousIssue"/>
+        <www:rdf-schemalabel xml:lang="en">hasSuggestion</www:rdf-schemalabel>
+        <www:rdf-schemarange rdf:resource="https://w3id.org/culcoSuggestion"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/culcohasUsageExample">
+        <www:rdf-schemacomment xml:lang="en">Used with Suggestions when it gives an example of how a contentious term or its synonym can be used appropriately in speech; usually, it is a phrase providing additional context in which it is appropriate to use the mentioned terms, for example, the phrase &apos;There was an artistic movement called ‘primitivism’ for the term &apos;Primitive&apos;</www:rdf-schemacomment>
+        <www:rdf-schemadomain rdf:resource="https://w3id.org/culcoSuggestion"/>
+        <www:rdf-schemalabel xml:lang="en">hasUsageExample</www:rdf-schemalabel>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

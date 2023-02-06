@@ -1,0 +1,162 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/culcoContentiousIssue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.w3.org/2000/01/rdf-schemaClass"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/culcoContentiousIssueScheme"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemacomment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemalabel" : [ {
+    "@language" : "en",
+    "@value" : "Contentious Issue"
+  } ]
+}, {
+  "@id" : "https://w3id.org/culcoContentiousIssueScheme",
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Concept Scheme for Words Matter Knowledge Graph"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemasubClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ]
+}, {
+  "@id" : "https://w3id.org/culcoSuggestion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.w3.org/2000/01/rdf-schemaClass"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemacomment" : [ {
+    "@language" : "en",
+    "@value" : "A suggestion gives recommendations on how to use a contentious term. It can be a general textual suggestion or have concrete alternatives: words and phrases to be used instead of a contentious term in specific contexts. A suggestion can refer to multiple contentious terms. Usually, a Suggestion is a part of a Contentious Issue"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemalabel" : [ {
+    "@language" : "en",
+    "@value" : "Suggestion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/culcohasAltLabelExample",
+  "https://www.w3.org/2000/01/rdf-schemacomment" : [ {
+    "@language" : "en",
+    "@value" : "Used with Suggestions when a suggestion gives an example of a contextually appropriate synonym, but not a complete alternative to a contentious label. For example,  the term 'Moroccan-Dutch' is one of the possible alternatives for the contentious term 'Allochtoon'"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemadomain" : [ {
+    "@id" : "https://w3id.org/culcoSuggestion"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemalabel" : [ {
+    "@language" : "en",
+    "@value" : "hasAltLabelExample"
+  } ]
+}, {
+  "@id" : "https://w3id.org/culcohasContentiousLabel",
+  "https://www.w3.org/2000/01/rdf-schemacomment" : [ {
+    "@language" : "en",
+    "@value" : "Used to link Contentious Issue to the contentious label(s) it mentions. Technically, Suggestion may also mention contentious labels"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemalabel" : [ {
+    "@language" : "en",
+    "@value" : "hasContentiousLabel"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemarange" : [ {
+    "@id" : "http://www.w3.org/2008/05/skos-xl#Label"
+  } ]
+}, {
+  "@id" : "https://w3id.org/culcohasSuggestedLabel",
+  "https://www.w3.org/2000/01/rdf-schemacomment" : [ {
+    "@language" : "en",
+    "@value" : "Used to link Suggestion to the suggested label(s) it mentions."
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemadomain" : [ {
+    "@id" : "https://w3id.org/culcoSuggestion"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemalabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSuggestedLabel"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemarange" : [ {
+    "@id" : "http://www.w3.org/2008/05/skos-xl#Label"
+  } ]
+}, {
+  "@id" : "https://w3id.org/culcohasSuggestion",
+  "https://www.w3.org/2000/01/rdf-schemacomment" : [ {
+    "@language" : "en",
+    "@value" : "Used to link Contentious Issue to a Suggestion. Contentious Issue may have several Suggestions"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemadomain" : [ {
+    "@id" : "https://w3id.org/culcoContentiousIssue"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemalabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSuggestion"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemarange" : [ {
+    "@id" : "https://w3id.org/culcoSuggestion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/culcohasUsageExample",
+  "https://www.w3.org/2000/01/rdf-schemacomment" : [ {
+    "@language" : "en",
+    "@value" : "Used with Suggestions when it gives an example of how a contentious term or its synonym can be used appropriately in speech; usually, it is a phrase providing additional context in which it is appropriate to use the mentioned terms, for example, the phrase 'There was an artistic movement called ‘primitivism’ for the term 'Primitive'"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemadomain" : [ {
+    "@id" : "https://w3id.org/culcoSuggestion"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemalabel" : [ {
+    "@language" : "en",
+    "@value" : "hasUsageExample"
+  } ]
+}, {
+  "@id" : "https://w3id.org/culcosuggestedFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#property"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemacomment" : [ {
+    "@language" : "en",
+    "@value" : "Used to link Suggestion to the contentious label(s) it is suggested for."
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemadomain" : [ {
+    "@id" : "https://w3id.org/culcoSuggestion"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemalabel" : [ {
+    "@language" : "en",
+    "@value" : "suggestedFor"
+  } ],
+  "https://www.w3.org/2000/01/rdf-schemarange" : [ {
+    "@id" : "http://www.w3.org/2008/05/skos-xl#Label"
+  } ]
+}, {
+  "@id" : "https://www.w3.org/2000/01/rdf-schemaClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.w3.org/2000/01/rdf-schemacomment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://www.w3.org/2000/01/rdf-schemadomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://www.w3.org/2000/01/rdf-schemalabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://www.w3.org/2000/01/rdf-schemarange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://www.w3.org/2000/01/rdf-schemasubClassOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

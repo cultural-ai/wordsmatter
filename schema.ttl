@@ -1,14 +1,14 @@
 @prefix culco: <https://w3id.org/culco#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> . 
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 culco:ContentiousIssueScheme rdfs:subClassOf skos:ConceptScheme ;
-dcterms:title "Concept Scheme for Words Matter Knowledge Graph"@en .
+	dcterms:title "Concept Scheme for Words Matter Knowledge Graph"@en .
 
-culco:ContentiousIssue a rdfs:Class ;
+culco:ContentiousIssue a rdfs:Class;
    skos:inScheme culco:ContentiousIssueScheme ;
    rdfs:label "Contentious Issue"@en ;
    rdfs:comment "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"@en .

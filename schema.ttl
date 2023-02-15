@@ -47,6 +47,9 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	foaf:mbox "jacco.van.ossenbruggen@vu.nl"@en ;
 	foaf:homepage <https://research.vu.nl/en/persons/jacco-van-ossenbruggen> .
 
+<https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> a schema:Organisation ;
+	schema:name "The Dutch National Museum of World Cultures"@en .
+
 culco:ContentiousIssue a rdfs:Class;
    skos:inScheme culco:ContentiousIssueScheme ;
    rdfs:label "Contentious Issue"@en ;

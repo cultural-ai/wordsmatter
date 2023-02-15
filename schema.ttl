@@ -9,6 +9,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix schema: <http://schema.org/> .
 
 culco:ContentiousIssueScheme a owl:Ontology ;
 	rdfs:subClassOf skos:ConceptScheme ;

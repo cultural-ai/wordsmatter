@@ -21,7 +21,7 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	dcterms:contributor <https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> ;
 	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
 	rdfs:seeAlso <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
-	foaf:depiction <https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png> ;
+	schema:image <https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png> ;
 	bibo:doi "10.5281/zenodo.7456064"@en ;
 	bibo:status "CULCO Scheme Specification"@en ;
 	vann:namespacePrefix "culco"@en ;

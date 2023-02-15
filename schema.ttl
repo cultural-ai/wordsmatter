@@ -63,6 +63,7 @@ culco:hasSuggestion a rdf:Property ;
 						rdfs:comment "Used to link Contentious Issue to a Suggestion. Contentious Issue may have several Suggestions"@en. 
 
 culco:hasContentiousLabel a rdf:Property ;
+						rdfs:domain culco:ContentiousIssue ;
 						rdfs:range skosxl:Label ;
 						rdfs:label "hasContentiousLabel"@en ;
 						rdfs:comment "Used to link Contentious Issue to the contentious label(s) it mentions. Technically, Suggestion may also mention contentious labels"@en .
@@ -81,7 +82,7 @@ culco:suggestedFor a rdf:Property ;
 	
 culco:hasAltLabelExample a rdf:Property ;
 						rdfs:domain culco:Suggestion ;
-						rdfs:range xsd:string, skosxl:Label ;
+						rdfs:range skosxl:Label ;
 						rdfs:label "hasAltLabelExample"@en ;
 						rdfs:comment "Used with Suggestions when a suggestion gives an example of a contextually appropriate synonym, but not a complete alternative to a contentious label. For example,  the term 'Moroccan-Dutch' is one of the possible alternatives for the contentious term 'Allochtoon'"@en .
 

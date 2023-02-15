@@ -23,6 +23,7 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	rdfs:seeAlso <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
 	foaf:depiction <https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png> ;
 	bibo:doi "10.5281/zenodo.7456064"@en ;
+	bibo:status "CULCO Scheme Specification"@en ;
 	vann:namespacePrefix "culco"@en ;
 	vann:namespaceURI <http://w3id.org/culco#> ;
 	dcterms:replaces <http://w3id.org/culco#> ;

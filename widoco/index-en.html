@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>CULCO: Concept Scheme for Words Matter Knowledge Graph</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://w3id.org/culco#ContentiousIssueScheme","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://w3id.org/culco#ContentiousIssueScheme","name":"CULCO: Concept Scheme for Words Matter Knowledge Graph", "headline":"The CULCO concept scheme is used to represent the knowlege graph of contentious terminology from the cultural sector. CULCO stands for "cultural contexts"", "datePublished":"2022-12-13", "version":"1.0.0", "license":"https://creativecommons.org/licenses/by-sa/4.0/", "author":[{"@type":"Person","name":"Andrei Nesterov","url":"https://www.cwi.nl/people/3450"},{"@type":"Person","name":"Laura Hollink","url":"http://cwi.nl/~hollink"},{"@type":"Person","name":"Jacco van Ossenbruggen","url":"https://research.vu.nl/en/persons/jacco-van-ossenbruggen"}], "contributor":[{"@type":"Person","name":"https://www.tropenmuseum.nl/en/about-tropenmuseum/contact","url":"https://www.tropenmuseum.nl/en/about-tropenmuseum/contact"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>CULCO: Concept Scheme for Words Matter Knowledge Graph</h1>
+<h2>Release 2022-12-13</h2>
+
+
+<dl>
+<dt>This version:</dt>
+<dd><a href="http://w3id.org/culco#">http://w3id.org/culco#</a></dd>
+<dt>Previous version:</dt>
+<dd><a href="http://w3id.org/culco#">http://w3id.org/culco#</a></dd>
+<dt>Revision:</dt>
+<dd>1.0.0</dd>
+<dt>Authors:</dt>
+<dd><a href="https://www.cwi.nl/people/3450">Andrei Nesterov</a><a href="mailto:nesterov@cwi.nl">&#9993;</a></dd><dd><a href="http://cwi.nl/~hollink">Laura Hollink</a><a href="mailto:l.hollink@cwi.nl">&#9993;</a></dd><dd><a href="https://research.vu.nl/en/persons/jacco-van-ossenbruggen">Jacco van Ossenbruggen</a><a href="mailto:jacco.van.ossenbruggen@vu.nl">&#9993;</a></dd>
+
+<dt>Contributors:</dt>
+<dd><a href="https://www.tropenmuseum.nl/en/about-tropenmuseum/contact">https://www.tropenmuseum.nl/en/about-tropenmuseum/contact</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by_sa/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>Andrei Nesterov, Laura Hollink, Jacco van Ossenbruggen. CULCO: Concept Scheme for Words Matter Knowledge Graph. Revision: 1.0.0. Retrieved from: http://w3id.org/culco#</dd>
+<dt>DOI:</dt>
+<dd><a href="http://dx.doi.org//10.5281/zenodo.7456065"><img src ="https://img.shields.io/badge/DOI-/10.5281/zenodo.7456065-blue.svg" alt="/10.5281/zenodo.7456065" /></a></dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+The CULCO concept scheme is used to represent the knowlege graph of contentious terminology from the cultural sector. CULCO stands for "cultural contexts"</span>
+</div>
+<div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Contentious Issues Scheme: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
+   <li>
+      <a href="#http://w3id.org/culco#ContentiousIssue" title="http://w3id.org/culco#ContentiousIssue">Contentious Issue</a>
+   </li>
+   <li>
+      <a href="#" title="http://w3id.org/culco#ContentiousIssueScheme">
+         <span>Contentious Issues Scheme</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/culco#Suggestion" title="http://w3id.org/culco#Suggestion">Suggestion</a>
+   </li>
+</ul><h4>Object Properties</h4><ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
+   <li>
+      <a href="#http://w3id.org/culco#hasAltLabelExample" title="http://w3id.org/culco#hasAltLabelExample">hasAltLabelExample</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/culco#hasContentiousLabel" title="http://w3id.org/culco#hasContentiousLabel">hasContentiousLabel</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/culco#hasSuggestedLabel" title="http://w3id.org/culco#hasSuggestedLabel">hasSuggestedLabel</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/culco#hasSuggestion" title="http://w3id.org/culco#hasSuggestion">hasSuggestion</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/culco#suggestedFor" title="http://w3id.org/culco#suggestedFor">suggestedFor</a>
+   </li>
+</ul><h4>Data Properties</h4><ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
+   <li>
+      <a href="#http://w3id.org/culco#hasUsageExample" title="http://w3id.org/culco#hasUsageExample">hasUsageExample</a>
+   </li>
+</ul>
+</div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Contentious Issues Scheme classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Contentious Issues Scheme.
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://w3id.org/culco#ContentiousIssue" title="http://w3id.org/culco#ContentiousIssue">Contentious Issue</a>
+      </li>
+      <li>
+         <a href="#" title="http://w3id.org/culco#ContentiousIssueScheme">
+            <span>Contentious Issues Scheme</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://w3id.org/culco#Suggestion" title="http://w3id.org/culco#Suggestion">Suggestion</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://w3id.org/culco#ContentiousIssue">
+      <h3>Contentious Issue<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#ContentiousIssue</p>
+      <div class="comment">
+         <span class="markdown">Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://w3id.org/culco#hasContentiousLabel" title="http://w3id.org/culco#hasContentiousLabel">hasContentiousLabel</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://w3id.org/culco#hasSuggestion" title="http://w3id.org/culco#hasSuggestion">hasSuggestion</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="">
+      <h3>Contentious Issues Scheme<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#ContentiousIssueScheme</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#ConceptScheme">concept scheme</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://w3id.org/culco#Suggestion">
+      <h3>Suggestion<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#Suggestion</p>
+      <div class="comment">
+         <span class="markdown">A suggestion gives recommendations on how to use a contentious term. It can be a general textual suggestion or have concrete alternatives: words and phrases to be used instead of a contentious term in specific contexts. A suggestion can refer to multiple contentious terms. Usually, a Suggestion is a part of a Contentious Issue</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://w3id.org/culco#hasAltLabelExample" title="http://w3id.org/culco#hasAltLabelExample">hasAltLabelExample</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://w3id.org/culco#hasSuggestedLabel" title="http://w3id.org/culco#hasSuggestedLabel">hasSuggestedLabel</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://w3id.org/culco#hasUsageExample" title="http://w3id.org/culco#hasUsageExample">hasUsageExample</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://w3id.org/culco#suggestedFor" title="http://w3id.org/culco#suggestedFor">suggestedFor</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://w3id.org/culco#hasSuggestion" title="http://w3id.org/culco#hasSuggestion">hasSuggestion</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://w3id.org/culco#hasAltLabelExample" title="http://w3id.org/culco#hasAltLabelExample">hasAltLabelExample</a>
+      </li>
+      <li>
+         <a href="#http://w3id.org/culco#hasContentiousLabel" title="http://w3id.org/culco#hasContentiousLabel">hasContentiousLabel</a>
+      </li>
+      <li>
+         <a href="#http://w3id.org/culco#hasSuggestedLabel" title="http://w3id.org/culco#hasSuggestedLabel">hasSuggestedLabel</a>
+      </li>
+      <li>
+         <a href="#http://w3id.org/culco#hasSuggestion" title="http://w3id.org/culco#hasSuggestion">hasSuggestion</a>
+      </li>
+      <li>
+         <a href="#http://w3id.org/culco#suggestedFor" title="http://w3id.org/culco#suggestedFor">suggestedFor</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://w3id.org/culco#hasAltLabelExample">
+      <h3>hasAltLabelExample<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#hasAltLabelExample</p>
+      <div class="comment">
+         <span class="markdown">Used with Suggestions when a suggestion gives an example of a contextually appropriate synonym, but not a complete alternative to a contentious label. For example,  the term 'Moroccan-Dutch' is one of the possible alternatives for the contentious term 'Allochtoon'</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://w3id.org/culco#Suggestion" title="http://w3id.org/culco#Suggestion">Suggestion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2008/05/skos-xl#Label"
+                  target="_blank"
+                  title="http://www.w3.org/2008/05/skos-xl#Label">label</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://w3id.org/culco#hasContentiousLabel">
+      <h3>hasContentiousLabel<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#hasContentiousLabel</p>
+      <div class="comment">
+         <span class="markdown">Used to link Contentious Issue to the contentious label(s) it mentions. Technically, Suggestion may also mention contentious labels</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://w3id.org/culco#ContentiousIssue" title="http://w3id.org/culco#ContentiousIssue">Contentious Issue</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2008/05/skos-xl#Label"
+                  target="_blank"
+                  title="http://www.w3.org/2008/05/skos-xl#Label">label</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://w3id.org/culco#hasSuggestedLabel">
+      <h3>hasSuggestedLabel<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#hasSuggestedLabel</p>
+      <div class="comment">
+         <span class="markdown">Used to link Suggestion to the suggested label(s) it mentions.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://w3id.org/culco#Suggestion" title="http://w3id.org/culco#Suggestion">Suggestion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2008/05/skos-xl#Label"
+                  target="_blank"
+                  title="http://www.w3.org/2008/05/skos-xl#Label">label</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://w3id.org/culco#hasSuggestion">
+      <h3>hasSuggestion<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#hasSuggestion</p>
+      <div class="comment">
+         <span class="markdown">Used to link Contentious Issue to a Suggestion. Contentious Issue may have several Suggestions</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://w3id.org/culco#ContentiousIssue" title="http://w3id.org/culco#ContentiousIssue">Contentious Issue</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://w3id.org/culco#Suggestion" title="http://w3id.org/culco#Suggestion">Suggestion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://w3id.org/culco#suggestedFor">
+      <h3>suggestedFor<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#suggestedFor</p>
+      <div class="comment">
+         <span class="markdown">Used to link Suggestion to the contentious label(s) it is suggested for.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://w3id.org/culco#Suggestion" title="http://w3id.org/culco#Suggestion">Suggestion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2008/05/skos-xl#Label"
+                  target="_blank"
+                  title="http://www.w3.org/2008/05/skos-xl#Label">label</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://w3id.org/culco#hasUsageExample" title="http://w3id.org/culco#hasUsageExample">hasUsageExample</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://w3id.org/culco#hasUsageExample">
+      <h3>hasUsageExample<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/culco#hasUsageExample</p>
+      <div class="comment">
+         <span class="markdown">Used with Suggestions when it gives an example of how a contentious term or its synonym can be used appropriately in speech; usually, it is a phrase providing additional context in which it is appropriate to use the mentioned terms, for example, the phrase 'There was an artistic movement called ‘primitivism’ for the term 'Primitive'</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://w3id.org/culco#Suggestion" title="http://w3id.org/culco#Suggestion">Suggestion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+</div>
+</div>
+</div>
+   
+
+<!--CHANGELOG SECTION-->
+   <div id="changelog"><div id="changelog">
+<h2 id="changes" class="list">Changes from last version</h2>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

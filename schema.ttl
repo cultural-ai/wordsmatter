@@ -19,7 +19,7 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	dcterms:created "2022-12-13"^^xsd:date ;
 	dcterms:creator <https://orcid.org/0000-0001-9697-101X>,<https://orcid.org/0000-0002-6865-0021>,<https://orcid.org/0000-0002-7748-4715> ;
 	dcterms:contributor <https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> ;
-	dcterms:licence "CC BY-SA 4.0"@en ;
+	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
 	rdfs:seeAlso <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
 	foaf:depiction <https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png> ;
 	bibo:doi "10.5281/zenodo.7456065"@en ;

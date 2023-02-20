@@ -18,7 +18,7 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	dcterms:abstract 'The CULCO concept scheme is used to represent the knowlege graph of contentious terminology from the cultural sector. CULCO stands for "cultural contexts"'@en ;
 	dcterms:created "2022-12-13"^^xsd:date ;
 	dcterms:creator <https://orcid.org/0000-0001-9697-101X>,<https://orcid.org/0000-0002-6865-0021>,<https://orcid.org/0000-0002-7748-4715> ;
-	dcterms:contributor <https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> ;
+	dcterms:contributor <https://www.tropenmuseum.nl/en/> ;
 	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
 	rdfs:seeAlso <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
 	schema:image <https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png> ;
@@ -48,8 +48,8 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	foaf:mbox "jacco.van.ossenbruggen@vu.nl"@en ;
 	foaf:homepage <https://research.vu.nl/en/persons/jacco-van-ossenbruggen> .
 
-<https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> a schema:Organisation ;
-	schema:name "The Dutch National Museum of World Cultures"@en .
+<https://www.tropenmuseum.nl/en/> a schema:Organisation ;
+	schema:name "Stichting Nationaal Museum van Wereldculturen"@en .
 
 culco:ContentiousIssue a rdfs:Class;
    skos:inScheme culco:ContentiousIssueScheme ;

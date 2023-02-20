@@ -25,7 +25,7 @@ wsm:
 	dcterms:isVersionOf <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
 	dcterms:creator <https://orcid.org/0000-0001-9697-101X>,<https://orcid.org/0000-0002-7748-4715>,<https://orcid.org/0000-0002-6865-0021> ;
 	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
-	dcterms:rightsHolder <https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> ;
+	dcterms:rightsHolder "Stichting Nationaal Museum van Wereldculturen"@nl ;
 	dcterms:provenance <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
 	rdfs:seeAlso <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> .
 

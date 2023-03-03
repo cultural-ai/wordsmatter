@@ -33,19 +33,19 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 <https://orcid.org/0000-0001-9697-101X> a schema:Person ;
 	schema:affiliation "CWI"@en ;
 	foaf:name "Andrei Nesterov"@en ;
-	foaf:mbox "nesterov@cwi.nl"@en ;
+	foaf:mbox <mailto:nesterov@cwi.nl> ;
 	foaf:homepage <https://www.cwi.nl/people/3450> .
 
 <https://orcid.org/0000-0002-6865-0021> a schema:Person ;
 	schema:affiliation "CWI"@en ;
 	foaf:name "Laura Hollink"@en ;
-	foaf:mbox "l.hollink@cwi.nl"@en ;
-	foaf:homepage <http://cwi.nl/~hollink> .
+	foaf:mbox <mailto:l.hollink@cwi.nl> ;
+	foaf:homepage <https://cwi.nl/~hollink> .
 
 <https://orcid.org/0000-0002-7748-4715> a schema:Person ;
 	schema:affiliation "VU University Amsterdam"@en ;
 	foaf:name "Jacco van Ossenbruggen"@en ;
-	foaf:mbox "jacco.van.ossenbruggen@vu.nl"@en ;
+	foaf:mbox <mailto:jacco.van.ossenbruggen@vu.nl> ;
 	foaf:homepage <https://research.vu.nl/en/persons/jacco-van-ossenbruggen> .
 
 <https://www.tropenmuseum.nl/en/> a schema:Organisation ;

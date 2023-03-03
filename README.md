@@ -18,7 +18,7 @@ The HTML-version of the scheme documentation was generated using [WIDOCO](https:
 java -jar java-11-widoco-1.4.17-jar-with-dependencies.jar -ontFile schema.ttl -uniteSections -ignoreIndividuals -noPlaceHolderText -getOntologyMetadata -htaccess -rewriteAll -outFolder docs
 ```
 
-To access the knowledge graph, use https://w3id.org/culco/wordsmatter/. The concept scheme is available at http://w3id.org/culco#
+To access the knowledge graph, use https://w3id.org/culco/wordsmatter/. The concept scheme is available at https://w3id.org/culco#
 
 We have also made the knowledge graph available on [TriplyDB](https://triplydb.com/AndreiNesterov/Words-Matter-LOD/)
 

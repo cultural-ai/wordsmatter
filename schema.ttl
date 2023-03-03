@@ -1,4 +1,4 @@
-@prefix culco: <http://w3id.org/culco#> .
+@prefix culco: <https://w3id.org/culco#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -25,9 +25,9 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	bibo:doi "10.5281/zenodo.7456064"@en ;
 	bibo:status "CULCO Scheme Specification"@en ;
 	vann:namespacePrefix "culco"@en ;
-	vann:namespaceURI <http://w3id.org/culco#> ;
-	dcterms:replaces <http://w3id.org/culco#> ;
-	owl:versionIRI <http://w3id.org/culco#> ;
+	vann:namespaceURI <https://w3id.org/culco#> ;
+	dcterms:replaces <https://w3id.org/culco#> ;
+	owl:versionIRI <https://w3id.org/culco#> ;
 	owl:versionInfo "1.0.0"@en.
 
 <https://orcid.org/0000-0001-9697-101X> a schema:Person ;

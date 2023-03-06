@@ -26,9 +26,9 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	bibo:status "CULCO Scheme Specification"@en ;
 	vann:namespacePrefix "culco"@en ;
 	vann:namespaceURI <https://w3id.org/culco#> ;
-	dcterms:replaces <https://raw.githubusercontent.com/cultural-ai/wordsmatter/v1.0.0/schema.ttl> ;
-	owl:versionIRI <https://raw.githubusercontent.com/cultural-ai/wordsmatter/v1.0.1/schema.ttl> ;
-	owl:versionInfo "1.0.1"@en.
+	dcterms:replaces <https://raw.githubusercontent.com/cultural-ai/wordsmatter/v1.0.1/schema.ttl> ;
+	owl:versionIRI <https://raw.githubusercontent.com/cultural-ai/wordsmatter/v1.0.2/schema.ttl> ;
+	owl:versionInfo "1.0.2"@en.
 
 <https://orcid.org/0000-0001-9697-101X> a schema:Person ;
 	schema:affiliation "CWI"@en ;

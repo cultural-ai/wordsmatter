@@ -11,6 +11,7 @@
 @prefix aat: <http://vocab.getty.edu/aat/> .
 @prefix wikidata: <https://www.wikidata.org/wiki/> .
 @prefix pwnid: <http://wordnet-rdf.princeton.edu/id/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 # Contentious Issues
 
@@ -27,6 +28,8 @@ wsm:
 	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
 	dcterms:rightsHolder "Stichting Nationaal Museum van Wereldculturen"@nl ;
 	dcterms:provenance <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
+	vann:namespacePrefix "wsm"@en ;
+	vann:namespaceURI <https://w3id.org/culco/wordsmatter/> ;
 	rdfs:seeAlso <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> .
 
 wsm:90

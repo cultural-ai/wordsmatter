@@ -58,7 +58,7 @@ culco:ContentiousIssue a rdfs:Class;
 
 culco:Suggestion a rdfs:Class ;
 	rdfs:label "Suggestion"@en ;
-	rdfs:comment "A suggestion gives recommendations on how to use a contentious term. It can be a general textual suggestion or have concrete alternatives: words and phrases to be used instead of a contentious term in specific contexts. A suggestion can refer to multiple contentious terms. Usually, a Suggestion is a part of a Contentious Issue"@en .
+	rdfs:comment "A suggestion gives recommendations on how to use a contentious term. It can have concrete alternatives: words and phrases to be used instead of a contentious term in specific contexts. A suggestion can refer to multiple contentious terms. Usually, a Suggestion is a part of a Contentious Issue"@en .
 
 culco:hasSuggestion a rdf:Property ;
 						rdfs:domain culco:ContentiousIssue ;
@@ -70,7 +70,7 @@ culco:hasContentiousLabel a rdf:Property ;
 						rdfs:domain culco:ContentiousIssue ;
 						rdfs:range skosxl:Label ;
 						rdfs:label "hasContentiousLabel"@en ;
-						rdfs:comment "Used to link Contentious Issue to the contentious label(s) it mentions. Technically, Suggestion may also mention contentious labels"@en .
+						rdfs:comment "Used to link Contentious Issue to the contentious label(s) it mentions. Suggestion may also mention contentious labels"@en .
 
 culco:hasSuggestedLabel a rdf:Property ;
 						rdfs:domain culco:Suggestion ;

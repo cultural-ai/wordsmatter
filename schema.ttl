@@ -52,7 +52,6 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	schema:name "Stichting Nationaal Museum van Wereldculturen"@en .
 
 culco:ContentiousIssue a rdfs:Class;
-   skos:inScheme culco:ContentiousIssueScheme ;
    rdfs:label "Contentious Issue"@en ;
    rdfs:comment "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"@en .
 

@@ -15,7 +15,7 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	rdfs:subClassOf skos:ConceptScheme ;
 	dcterms:title "CULCO: Concept Scheme for contentious terminology in the cultural sector"@en ;
 	rdfs:label "Contentious Issues Scheme"@en ;
-	dcterms:abstract 'The CULCO concept scheme is used to represent contentious terminology from the cultural sector. CULCO stands for "cultural contexts". This scheme is used in the Words Matter knowledge graph, which contains Dutch and English contentious terms often found in museum databases. With CULCO, the knowlege graph models relationships between contentious terms, explanations, suggestions on their usage, and alternative terms given by domain experts."'@en ;
+	dcterms:abstract 'The CULCO concept scheme is used to represent contentious terminology from the cultural sector. CULCO stands for "cultural contexts". This scheme is used in the Words Matter knowledge graph, which contains Dutch and English contentious terms often found in museum databases. With CULCO, the knowlege graph models relationships between contentious terms, explanations, suggestions on their usage, and alternative terms given by domain experts.'@en ;
 	dcterms:created "2022-12-13"^^xsd:date ;
 	dcterms:creator <https://orcid.org/0000-0001-9697-101X>,<https://orcid.org/0000-0002-6865-0021>,<https://orcid.org/0000-0002-7748-4715> ;
 	dcterms:contributor <https://www.tropenmuseum.nl/en/> ;

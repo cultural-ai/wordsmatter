@@ -1,22 +1,22 @@
-<http://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2002/07/owl#versionIRI> <http://w3id.org/culco#> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/abstract> "The CULCO concept scheme is used to represent the knowlege graph of contentious terminology from the cultural sector. CULCO stands for \"cultural contexts\""@en .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/contributor> <https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/created> "2022-12-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-9697-101X> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-6865-0021> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-7748-4715> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/replaces> <http://w3id.org/culco#> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/title> "CULCO: Concept Scheme for Words Matter Knowledge Graph"@en .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/ontology/bibo/doi> "10.5281/zenodo.7456064"@en .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/ontology/bibo/status> "CULCO Scheme Specification"@en .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/vocab/vann/namespacePrefix> "culco"@en .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/vocab/vann/namespaceURI> <http://w3id.org/culco#> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://schema.org/image> <https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Contentious Issues Scheme"@en .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2002/07/owl#versionIRI> <https://raw.githubusercontent.com/cultural-ai/wordsmatter/v1.0.2/schema.ttl> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/abstract> "The CULCO concept scheme is used to represent contentious terminology. CULCO stands for \"cultural contexts\". This scheme is used in the Words Matter knowledge graph, which contains Dutch and English contentious terms often found in museum databases. With CULCO, the knowlege graph models relationships between contentious terms, explanations, suggestions on their usage, and alternative terms given by experts from the cultural sector."@en .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/contributor> <https://www.tropenmuseum.nl/en/> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/created> "2022-12-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-9697-101X> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-6865-0021> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-7748-4715> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/replaces> <https://raw.githubusercontent.com/cultural-ai/wordsmatter/v1.0.1/schema.ttl> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/dc/terms/title> "CULCO: Concept Scheme for contentious terminology"@en .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/ontology/bibo/doi> "10.5281/zenodo.7456064"@en .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/ontology/bibo/status> "CULCO Scheme Specification"@en .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/vocab/vann/namespacePrefix> "culco"@en .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://purl.org/vocab/vann/namespaceURI> <https://w3id.org/culco#> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://schema.org/image> <https://github.com/cultural-ai/wordsmatter/blob/main/wm_kg_schema.png> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Contentious Issues Scheme"@en .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.2"@en .
 # 
 # 
 # #################################################################
@@ -101,41 +101,41 @@
 # #################################################################
 # 
 # 
-# http://w3id.org/culco#hasAltLabelExample
-<http://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/culco#Suggestion> .
-<http://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
+# https://w3id.org/culco#hasAltLabelExample
+<https://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/culco#Suggestion> .
+<https://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
 <http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Suggestions when a suggestion gives an example of a contextually appropriate synonym, but not a complete alternative to a contentious label. For example,  the term 'Moroccan-Dutch' is one of the possible alternatives for the contentious term 'Allochtoon'"@en .
-<http://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/2000/01/rdf-schema#label> "hasAltLabelExample"@en .
+<https://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Suggestions when a suggestion gives an example of a contextually appropriate synonym, but not a complete alternative to a contentious label. For example,  the term 'Moroccan-Dutch' is one of the possible alternatives for the contentious term 'Allochtoon'"@en .
+<https://w3id.org/culco#hasAltLabelExample> <http://www.w3.org/2000/01/rdf-schema#label> "hasAltLabelExample"@en .
 # 
-# http://w3id.org/culco#hasContentiousLabel
-<http://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/culco#ContentiousIssue> .
-<http://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
-<http://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link Contentious Issue to the contentious label(s) it mentions. Technically, Suggestion may also mention contentious labels"@en .
-<http://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/2000/01/rdf-schema#label> "hasContentiousLabel"@en .
+# https://w3id.org/culco#hasContentiousLabel
+<https://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/culco#ContentiousIssue> .
+<https://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
+<https://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link Contentious Issue to the contentious label(s) it mentions. Suggestion may also mention contentious labels"@en .
+<https://w3id.org/culco#hasContentiousLabel> <http://www.w3.org/2000/01/rdf-schema#label> "hasContentiousLabel"@en .
 # 
-# http://w3id.org/culco#hasSuggestedLabel
-<http://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/culco#Suggestion> .
-<http://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
-<http://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link Suggestion to the suggested label(s) it mentions."@en .
-<http://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/2000/01/rdf-schema#label> "hasSuggestedLabel"@en .
+# https://w3id.org/culco#hasSuggestedLabel
+<https://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/culco#Suggestion> .
+<https://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
+<https://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link Suggestion to the suggested label(s) it mentions."@en .
+<https://w3id.org/culco#hasSuggestedLabel> <http://www.w3.org/2000/01/rdf-schema#label> "hasSuggestedLabel"@en .
 # 
-# http://w3id.org/culco#hasSuggestion
-<http://w3id.org/culco#hasSuggestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/culco#hasSuggestion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/culco#ContentiousIssue> .
-<http://w3id.org/culco#hasSuggestion> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/culco#Suggestion> .
-<http://w3id.org/culco#hasSuggestion> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link Contentious Issue to a Suggestion. Contentious Issue may have several Suggestions"@en .
-<http://w3id.org/culco#hasSuggestion> <http://www.w3.org/2000/01/rdf-schema#label> "hasSuggestion"@en .
+# https://w3id.org/culco#hasSuggestion
+<https://w3id.org/culco#hasSuggestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/culco#hasSuggestion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/culco#ContentiousIssue> .
+<https://w3id.org/culco#hasSuggestion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/culco#Suggestion> .
+<https://w3id.org/culco#hasSuggestion> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link Contentious Issue to a Suggestion. Contentious Issue may have several Suggestions"@en .
+<https://w3id.org/culco#hasSuggestion> <http://www.w3.org/2000/01/rdf-schema#label> "hasSuggestion"@en .
 # 
-# http://w3id.org/culco#suggestedFor
-<http://w3id.org/culco#suggestedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/culco#suggestedFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/culco#Suggestion> .
-<http://w3id.org/culco#suggestedFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
-<http://w3id.org/culco#suggestedFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link Suggestion to the contentious label(s) it is suggested for."@en .
-<http://w3id.org/culco#suggestedFor> <http://www.w3.org/2000/01/rdf-schema#label> "suggestedFor"@en .
+# https://w3id.org/culco#suggestedFor
+<https://w3id.org/culco#suggestedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/culco#suggestedFor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/culco#Suggestion> .
+<https://w3id.org/culco#suggestedFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
+<https://w3id.org/culco#suggestedFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link Suggestion to the contentious label(s) it is suggested for."@en .
+<https://w3id.org/culco#suggestedFor> <http://www.w3.org/2000/01/rdf-schema#label> "suggestedFor"@en .
 # 
 # 
 # 
@@ -146,12 +146,12 @@
 # #################################################################
 # 
 # 
-# http://w3id.org/culco#hasUsageExample
-<http://w3id.org/culco#hasUsageExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/culco#hasUsageExample> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/culco#Suggestion> .
-<http://w3id.org/culco#hasUsageExample> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://w3id.org/culco#hasUsageExample> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Suggestions when it gives an example of how a contentious term or its synonym can be used appropriately in speech; usually, it is a phrase providing additional context in which it is appropriate to use the mentioned terms, for example, the phrase 'There was an artistic movement called ‘primitivism’ for the term 'Primitive'"@en .
-<http://w3id.org/culco#hasUsageExample> <http://www.w3.org/2000/01/rdf-schema#label> "hasUsageExample"@en .
+# https://w3id.org/culco#hasUsageExample
+<https://w3id.org/culco#hasUsageExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/culco#hasUsageExample> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/culco#Suggestion> .
+<https://w3id.org/culco#hasUsageExample> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/culco#hasUsageExample> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Suggestions when it gives an example of how a contentious term or its synonym can be used appropriately in speech; usually, it is a phrase providing additional context in which it is appropriate to use the mentioned terms, for example, the phrase 'There was an artistic movement called ‘primitivism’ for the term 'Primitive'"@en .
+<https://w3id.org/culco#hasUsageExample> <http://www.w3.org/2000/01/rdf-schema#label> "hasUsageExample"@en .
 # 
 # 
 # 
@@ -168,25 +168,25 @@
 # http://schema.org/Person
 <http://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://w3id.org/culco#ContentiousIssue
-<http://w3id.org/culco#ContentiousIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"@en .
-<http://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2000/01/rdf-schema#label> "Contentious Issue"@en .
-<http://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2004/02/skos/core#inScheme> <http://w3id.org/culco#ContentiousIssueScheme> .
-# 
-# http://w3id.org/culco#ContentiousIssueScheme
-<http://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
 <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://w3id.org/culco#Suggestion
-<http://w3id.org/culco#Suggestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/culco#Suggestion> <http://www.w3.org/2000/01/rdf-schema#comment> "A suggestion gives recommendations on how to use a contentious term. It can be a general textual suggestion or have concrete alternatives: words and phrases to be used instead of a contentious term in specific contexts. A suggestion can refer to multiple contentious terms. Usually, a Suggestion is a part of a Contentious Issue"@en .
-<http://w3id.org/culco#Suggestion> <http://www.w3.org/2000/01/rdf-schema#label> "Suggestion"@en .
-# 
-# http://www.w3.org/2004/02/skos/core#ConceptScheme
-# 
 # http://www.w3.org/2008/05/skos-xl#Label
+# 
+# https://w3id.org/culco#ContentiousIssue
+<https://w3id.org/culco#ContentiousIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"@en .
+<https://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2000/01/rdf-schema#label> "Contentious Issue"@en .
+<https://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/culco#ContentiousIssueScheme> .
+# 
+# https://w3id.org/culco#ContentiousIssueScheme
+<https://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# https://w3id.org/culco#Suggestion
+<https://w3id.org/culco#Suggestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/culco#Suggestion> <http://www.w3.org/2000/01/rdf-schema#comment> "A suggestion gives recommendations on how to use a contentious term. It can have concrete alternatives: words and phrases to be used instead of a contentious term in specific contexts. A suggestion can refer to multiple contentious terms. Usually, a Suggestion is a part of a Contentious Issue"@en .
+<https://w3id.org/culco#Suggestion> <http://www.w3.org/2000/01/rdf-schema#label> "Suggestion"@en .
 # 
 # 
 # 
@@ -202,15 +202,15 @@
 <https://orcid.org/0000-0001-9697-101X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://orcid.org/0000-0001-9697-101X> <http://schema.org/affiliation> "CWI"@en .
 <https://orcid.org/0000-0001-9697-101X> <http://xmlns.com/foaf/0.1/homepage> <https://www.cwi.nl/people/3450> .
-<https://orcid.org/0000-0001-9697-101X> <http://xmlns.com/foaf/0.1/mbox> "nesterov@cwi.nl"@en .
+<https://orcid.org/0000-0001-9697-101X> <http://xmlns.com/foaf/0.1/mbox> <mailto:nesterov@cwi.nl> .
 <https://orcid.org/0000-0001-9697-101X> <http://xmlns.com/foaf/0.1/name> "Andrei Nesterov"@en .
 # 
 # https://orcid.org/0000-0002-6865-0021
 <https://orcid.org/0000-0002-6865-0021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0002-6865-0021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://orcid.org/0000-0002-6865-0021> <http://schema.org/affiliation> "CWI"@en .
-<https://orcid.org/0000-0002-6865-0021> <http://xmlns.com/foaf/0.1/homepage> <http://cwi.nl/~hollink> .
-<https://orcid.org/0000-0002-6865-0021> <http://xmlns.com/foaf/0.1/mbox> "l.hollink@cwi.nl"@en .
+<https://orcid.org/0000-0002-6865-0021> <http://xmlns.com/foaf/0.1/homepage> <https://cwi.nl/~hollink> .
+<https://orcid.org/0000-0002-6865-0021> <http://xmlns.com/foaf/0.1/mbox> <mailto:l.hollink@cwi.nl> .
 <https://orcid.org/0000-0002-6865-0021> <http://xmlns.com/foaf/0.1/name> "Laura Hollink"@en .
 # 
 # https://orcid.org/0000-0002-7748-4715
@@ -218,12 +218,12 @@
 <https://orcid.org/0000-0002-7748-4715> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://orcid.org/0000-0002-7748-4715> <http://schema.org/affiliation> "VU University Amsterdam"@en .
 <https://orcid.org/0000-0002-7748-4715> <http://xmlns.com/foaf/0.1/homepage> <https://research.vu.nl/en/persons/jacco-van-ossenbruggen> .
-<https://orcid.org/0000-0002-7748-4715> <http://xmlns.com/foaf/0.1/mbox> "jacco.van.ossenbruggen@vu.nl"@en .
+<https://orcid.org/0000-0002-7748-4715> <http://xmlns.com/foaf/0.1/mbox> <mailto:jacco.van.ossenbruggen@vu.nl> .
 <https://orcid.org/0000-0002-7748-4715> <http://xmlns.com/foaf/0.1/name> "Jacco van Ossenbruggen"@en .
 # 
-# https://www.tropenmuseum.nl/en/about-tropenmuseum/contact
-<https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organisation> .
-<https://www.tropenmuseum.nl/en/about-tropenmuseum/contact> <http://schema.org/name> "The Dutch National Museum of World Cultures"@en .
+# https://www.tropenmuseum.nl/en/
+<https://www.tropenmuseum.nl/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.tropenmuseum.nl/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organisation> .
+<https://www.tropenmuseum.nl/en/> <http://schema.org/name> "Stichting Nationaal Museum van Wereldculturen"@en .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

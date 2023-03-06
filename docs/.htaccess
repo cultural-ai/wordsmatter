@@ -3,6 +3,8 @@
 # Maintainer: Jacco van Ossenbruggen (https://github.com/jrvosse, mailto:jacco.van.ossenbruggen@vu.nl)
 
 # redirect for WM KG
+RewriteRule ^v(.*)/schema.ttl https://raw.githubusercontent.com/cultural-ai/wordsmatter/$1/schema.ttl [R=302,L]
+RewriteRule ^wordsmatter/v(.*)/glossary.ttl https://raw.githubusercontent.com/cultural-ai/wordsmatter/v$1/glossary.ttl
 RewriteRule ^wordsmatter/(.*)$ https://raw.githubusercontent.com/cultural-ai/wordsmatter/main/glossary.ttl [R=302,L]
 
 # the code below is taken from WIDOCO https://github.com/dgarijo/Widoco

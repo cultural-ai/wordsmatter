@@ -68,9 +68,6 @@
 # http://schema.org/name
 <http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://www.w3.org/2004/02/skos/core#inScheme
-<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # http://xmlns.com/foaf/0.1/homepage
 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -177,7 +174,6 @@
 <https://w3id.org/culco#ContentiousIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"@en .
 <https://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2000/01/rdf-schema#label> "Contentious Issue"@en .
-<https://w3id.org/culco#ContentiousIssue> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/culco#ContentiousIssueScheme> .
 # 
 # https://w3id.org/culco#ContentiousIssueScheme
 <https://w3id.org/culco#ContentiousIssueScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

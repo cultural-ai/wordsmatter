@@ -8,7 +8,6 @@
      xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/">
@@ -142,13 +141,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://schema.org/name"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
-
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
     
 
 
@@ -334,7 +326,6 @@
     <owl:Class rdf:about="https://w3id.org/culco#ContentiousIssue">
         <rdfs:comment xml:lang="en">Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term&apos;s usage, and suggestions</rdfs:comment>
         <rdfs:label xml:lang="en">Contentious Issue</rdfs:label>
-        <skos:inScheme rdf:resource="https://w3id.org/culco#ContentiousIssueScheme"/>
     </owl:Class>
     
 

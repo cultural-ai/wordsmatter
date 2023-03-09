@@ -86,10 +86,6 @@
 <http://schema.org/name> rdf:type owl:AnnotationProperty .
 
 
-###  http://www.w3.org/2004/02/skos/core#inScheme
-<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:AnnotationProperty .
-
-
 ###  http://xmlns.com/foaf/0.1/homepage
 <http://xmlns.com/foaf/0.1/homepage> rdf:type owl:AnnotationProperty .
 
@@ -189,8 +185,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://w3id.org/culco#ContentiousIssue
 <https://w3id.org/culco#ContentiousIssue> rdf:type owl:Class ;
                                           rdfs:comment "Represents a discussion about a term. In a broader sense, the discussion may have various formats and types (a textual publication, a social media post, a multimedia file, a verbal conversation etc.). A term can be a word or a phrase that causes a discussion. In the case of Words Matter, the discussion is the glossary entry, which takes one page and includes a title (a contentious term), explanations about the term's usage, and suggestions"@en ;
-                                          rdfs:label "Contentious Issue"@en ;
-                                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/culco#ContentiousIssueScheme> .
+                                          rdfs:label "Contentious Issue"@en .
 
 
 ###  https://w3id.org/culco#ContentiousIssueScheme

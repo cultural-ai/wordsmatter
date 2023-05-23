@@ -83,7 +83,7 @@ $(function(){
 
 <dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by_sa/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/" /></a>
 </dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
-<dd>Andrei Nesterov, Laura Hollink, Jacco van Ossenbruggen. CULCO: Concept Scheme for contentious terminology. Revision: 1.0.2. Retrieved from: https://raw.githubusercontent.com/cultural-ai/wordsmatter/v1.0.2/schema.ttl</dd>
+<dd>Nesterov, A., Hollink, L., van Erp, M., van Ossenbruggen, J. (2023). A Knowledge Graph of Contentious Terminology for Inclusive Representation of Cultural Heritage. In: , et al. The Semantic Web. ESWC 2023. Lecture Notes in Computer Science, vol 13870. Springer, Cham. https://doi.org/10.1007/978-3-031-33455-9_30</dd>
 <dt>DOI:</dt>
 <dd><a href="http://dx.doi.org/10.5281/zenodo.7456064"><img src ="https://img.shields.io/badge/DOI-10.5281/zenodo.7456064-blue.svg" alt="10.5281/zenodo.7456064" /></a></dd>
 </dl>
@@ -104,7 +104,8 @@ The CULCO concept scheme is used to represent contentious terminology. CULCO sta
 
 <p>The CULCO scheme is intended for modelling contentious terms and discussions about them. A contentious term is such a term that causes discussions about its usage. For example, such discussions emerge because a term can be perceived by some as inappropriate, outdated, or offensive. The discussions about terms' usage can produce suggestions, explanations, alternative terms, and other information. CULCO models suggestions about terms' usage, which can include alternative terms for contentious terms and usage examples. Both contentious and suggested terms are modelled as skosxl Labels with URIs and literal values. This way, they can be linked to other resources. The main CULCO class is a Contentious Issue, which encompasses contentious terms, suggestions on their usage, examples, and alternatives.</p>
 <p>One of the use cases of CULCO is the Words Matter Knowledge Graph. It represents contentious terminology from the cultural sector described in the publication "Words Matter" <a href="#WM">[1]</a>. The knowledge graph connects contentious terms to explanations, suggestions on their usage, and alternative terms from experts. Additionally, it contains links to related entities associated with contentious terms from other LOD-resources. The Words Matter knowledge graph is <a href="https://raw.githubusercontent.com/cultural-ai/wordsmatter/main/glossary.ttl">available for download in Turtle format</a>.</p>
-<p>The schema and the knowledge graph are a part of the research project "Culturally Aware AI" <a href="#ai_culture">[2]</a>.</p>
+<p>The development of the schema and the knowledge graph is described in the paper "A Knowledge Graph of Contentious Terminology for Inclusive Representation of Cultural Heritage" <a href="#source_paper">[3]</a></p>
+<p>This work is carried out as a part of the research project "Culturally Aware AI" <a href="#ai_culture">[2]</a>.</p>
 
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Namespace declarations</h3>
@@ -463,7 +464,12 @@ This section provides details for each class and property defined by Contentious
 
 <ul>
    <li id="WM"><strong>[1]</strong>: Modest, W., Lelijveld, R.: Words Matter: an unfinished guide to word choices in the cultural sector (2018), <a href="https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication">https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication</a></li>
+
    <li id="ai_culture"><strong>[2]</strong>: Cultural AI Lab, AI:CULT – Culturally aware AI, <a href="https://www.cultural-ai.nl/projects/aicult-culturally-aware-ai">https://www.cultural-ai.nl/projects/aicult-culturally-aware-ai</a></li>
+
+   <li id="source_paper"><strong>[3]</strong>: Nesterov, A., Hollink, L., van Erp, M., van Ossenbruggen, J. (2023). A Knowledge Graph of Contentious Terminology for Inclusive Representation of Cultural Heritage. In: , et al. The Semantic Web. ESWC 2023. Lecture Notes in Computer Science, vol 13870. Springer, Cham. <a href="https://doi.org/10.1007/978-3-031-33455-9_30">https://doi.org/10.1007/978-3-031-33455-9_30</a></li>
+
+</li>
 </ul>
 
 </div>

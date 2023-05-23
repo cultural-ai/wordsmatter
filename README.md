@@ -1,4 +1,7 @@
 [![DOI](https://zenodo.org/badge/567786032.svg)](https://zenodo.org/badge/latestdoi/567786032)
+
+This work is described in the paper ["A Knowledge Graph of Contentious Terminology for Inclusive Representation of Cultural Heritage"](https://doi.org/10.1007/978-3-031-33455-9_30)
+
 # A knowledge graph of contentious terminology
 An RDF knowledge graph of contentious terms from the cultural sector is based on the publication ["Words Matter"](https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication) published by the Dutch National Museum of World Cultures.
 
@@ -48,3 +51,8 @@ NMVW is a thesaurus of the Dutch National Museum of World Cultures, which publis
 –	the resulting files: [aat_rm_en.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/aat_rm_en.json), [aat_rm_nl.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/aat_rm_nl.json), [wikidata_rm_en.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/wikidata_rm_en.json), [wikidata_rm_nl.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/wikidata_rm_nl.json), [pwn_rm.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/pwn_rm.json), [nmvw_rm.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/nmvw_rm.json).
 
 Contentious labels are linked to the URIs of their related matches with the property skos:relatedMatch.
+
+### Citation
+Nesterov, A., Hollink, L., van Erp, M., van Ossenbruggen, J. (2023). A Knowledge Graph of Contentious Terminology for Inclusive Representation of Cultural Heritage. In: , et al. The Semantic Web. ESWC 2023. Lecture Notes in Computer Science, vol 13870. Springer, Cham. https://doi.org/10.1007/978-3-031-33455-9_30
+
+[Download BIB](https://citation-needed.springer.com/v2/references/10.1007/978-3-031-33455-9_30?format=bibtex&flavour=citation)

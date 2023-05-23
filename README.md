@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/567786032.svg)](https://zenodo.org/badge/latestdoi/567786032)
+
 This work is described in the paper ["A Knowledge Graph of Contentious Terminology for Inclusive Representation of Cultural Heritage"](https://doi.org/10.1007/978-3-031-33455-9_30)
 
 # A knowledge graph of contentious terminology

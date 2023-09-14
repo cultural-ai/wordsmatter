@@ -47,7 +47,7 @@ NMVW is a thesaurus of the Dutch National Museum of World Cultures, which publis
 –	synsets from Princeton WordNet 3.1 are mapped to PWNIDs: [synset2pwnid_mappings.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/synset2pwnid_mappings.json) 
 
 4. Getting literal values of related matches in every resource
-–	see the module [LODlitParser](https://github.com/cultural-ai/wordsmatter/tree/main/LODlitParser)
+–	see [LODlitParser](https://github.com/cultural-ai/wordsmatter/tree/main/LODlitParser); \[Updated on 14.09.2023]: see the new version of [LODlit package](https://github.com/cultural-ai/LODlit/tree/main/LODlit_package);
 –	the resulting files: [aat_rm_en.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/aat_rm_en.json), [aat_rm_nl.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/aat_rm_nl.json), [wikidata_rm_en.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/wikidata_rm_en.json), [wikidata_rm_nl.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/wikidata_rm_nl.json), [pwn_rm.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/pwn_rm.json), [nmvw_rm.json](https://github.com/cultural-ai/wordsmatter/blob/main/related_matches/nmvw_rm.json).
 
 Contentious labels are linked to the URIs of their related matches with the property skos:relatedMatch.

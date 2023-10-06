@@ -17,7 +17,7 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	rdfs:label "Contentious Issues Scheme"@en ;
 	dcterms:abstract 'The CULCO concept scheme is used to represent contentious terminology. CULCO stands for "cultural contexts". This scheme is used in the Words Matter knowledge graph, which contains Dutch and English contentious terms often found in museum databases. With CULCO, the knowlege graph models relationships between contentious terms, explanations, suggestions on their usage, and alternative terms given by experts from the cultural sector.'@en ;
 	dcterms:created "2022-12-13"^^xsd:date ;
-	dcterms:creator <https://orcid.org/0000-0001-9697-101X>,<https://orcid.org/0000-0002-6865-0021>,<https://orcid.org/0000-0002-7748-4715> ;
+	dcterms:creator <https://orcid.org/0000-0001-9697-101X>,<https://orcid.org/0000-0002-6865-0021>,<https://orcid.org/0000-0001-9195-8203>,<https://orcid.org/0000-0002-7748-4715> ;
 	dcterms:contributor <https://www.tropenmuseum.nl/en/> ;
 	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
 	rdfs:seeAlso <https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication> ;
@@ -41,6 +41,12 @@ culco:ContentiousIssueScheme a owl:Ontology ;
 	foaf:name "Laura Hollink"@en ;
 	foaf:mbox <mailto:l.hollink@cwi.nl> ;
 	foaf:homepage <https://cwi.nl/~hollink> .
+
+<https://orcid.org/0000-0001-9195-8203> a schema:Person ;
+	schema:affiliation "KNAW Humanities Cluster"@en ;
+	foaf:name "Marieke van Erp"@en ;
+	foaf:mbox <mailto:marieke.van.erp@dh.huc.knaw.nl> ;
+	foaf:homepage <http://mariekevanerp.com> .
 
 <https://orcid.org/0000-0002-7748-4715> a schema:Person ;
 	schema:affiliation "VU University Amsterdam"@en ;

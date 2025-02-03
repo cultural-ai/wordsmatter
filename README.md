@@ -3,7 +3,7 @@
 This work is described in the paper ["A Knowledge Graph of Contentious Terminology for Inclusive Representation of Cultural Heritage"](https://doi.org/10.1007/978-3-031-33455-9_30)
 
 # A knowledge graph of contentious terminology
-An RDF knowledge graph of contentious terms from the cultural sector is based on the publication ["Words Matter"](https://www.tropenmuseum.nl/en/about-tropenmuseum/words-matter-publication) published by the Dutch National Museum of World Cultures.
+An RDF knowledge graph of contentious terms from the cultural sector is based on the publication ["Words Matter"](https://amsterdam.wereldmuseum.nl/en/about-wereldmuseum-amsterdam/research/words-matter-publication) published by the Dutch National Museum of World Cultures.
 
 "Words Matter" provides English and Dutch glossaries of problematic terms often found in museum databases. These glossaries include terms "that are sensitive to particular groups, that can cause offense, that elide important context, and that are understood as derogatory" (as it is explained in the publication). We call such terms "contentious".
 
